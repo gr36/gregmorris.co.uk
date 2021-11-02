@@ -31,7 +31,7 @@
     display: block;
 }
 
-.loop-post-title {
+.loop-post-title a {
     margin: 0 0 20px;
     color: var(--dark-gray-color);
     line-height: 1.2;
