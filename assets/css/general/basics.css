@@ -50,6 +50,14 @@ h6 {
     font-weight: 700;
 }
 
+.loop-post-title {
+    margin: 0 0 20px;
+    color: var(--dark-gray-color);
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
 p {
     margin: 0 0 30px;
 }
