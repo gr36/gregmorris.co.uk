@@ -40,3 +40,4 @@ yarn zip
 # Copyright & License
 
 Copyright (c) 2013-2021 Ghost Foundation - Released under the [MIT license](LICENSE).
+Use this as you wish but I dont think you will want to!
