@@ -60,6 +60,13 @@ img {
     height: auto;
 }
 
+.post-image {
+    display:block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 blockquote {
     margin-right: 60px;
     margin-left: 60px;
