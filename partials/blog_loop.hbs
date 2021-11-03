@@ -1,17 +1,17 @@
-<div class="grid-item">
-    <div class="{{post_class}}">
-        <a class="post-link" href="{{url}}" >
+<div class="blog-feed-item">
+    <a class="post-link" href="{{url}}" >
+        <div class="blog-feed-image">
             <img class="post-image lazyload" data-srcset="{{> srcset}}"
                 data-sizes="auto" src="{{img_url feature_image size="s"}}"
                 alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}">
-                <h2 class="blog-feed-title">{{title}}</h2>
-                <span class="post-caption-meta-item post-caption-meta-date">
-                    <time
-                        datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
-                </span>
-                <div class="blog-feed-excerpt">
-                    {{excerpt words="24"}}...
-                </div>
+        </div>
+        <div class="blog-feed-meta">
+            <h2 class="blog-feed-title">{{title}}</h2>
+            <span class="post-caption-meta-item post-caption-meta-date">
+            <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
+            </span>
+            <div class="blog-feed-excerpt">{{excerpt words="24"}}...</div>
+        </div>
         </a>
         
     </div>
