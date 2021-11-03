@@ -78,10 +78,11 @@
     
 }
 
-.blog-post-excerpt a {
+.blog-post-excerpt a, .blog-post-excerpt a:hover, .blog-post-excerpt a:visited  {
     text-decoration: underline;
     text-decoration-color: var(--ghost-accent-color)
 }
+
 
 .blog-post-meta {
     font-weight: 500;
