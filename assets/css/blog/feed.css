@@ -55,6 +55,14 @@
     border-radius: 11px
 }
 
+.post-card-image-wrap {
+    background-color: #f7f7f7;
+    display: block;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
 .post-card-info {
     flex-grow: 1;
     margin-left: 1.6rem;
