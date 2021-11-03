@@ -26,10 +26,15 @@
     margin: auto;
 }
 
+.blog-posts {
+    box-sizing: border-box;
+}
+
 .blog-post-card {
     display: flex;
     justify-content:space-between;
     align-content:flex-end;
+    margin: 4rem auto;
 }
 
 .post-card-image {
