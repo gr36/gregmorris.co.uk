@@ -46,7 +46,7 @@
 }
 
 .post-card-image-wrap {
-    background-color: #f7f7f7;
+    background-color: #fff;
     display: block;
     height: 100px;
     background-size: cover;
@@ -56,7 +56,7 @@
 }
 
 .link-post-card-image-wrap {
-    background-color: #f7f7f7;
+    background-color: #fff;
     display: block;
     height: 100px;
     background-size: cover;
