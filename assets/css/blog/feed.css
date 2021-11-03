@@ -12,6 +12,10 @@
     width: 330px;
 }
 
+.post-feed .blog-item {
+    width: 330px;
+}
+
 .post-feed .post {
     position: relative;
     margin: 15px;
@@ -34,7 +38,7 @@
         margin: -5px;
     }
 
-    .post-feed .grid-item {
+    .post-feed .grid-item, .post-feed .blog-item {
         width: calc(100% / 3);
     }
 
