@@ -53,19 +53,23 @@
     background-position: center;border-radius: 3px
 }
 
-.post-card-meta {
+.post-card-info {
     flex-grow: 1;
     margin-left: 1.6rem;
     text-align: left;
     flex-grow: 1
 }
 
-.blog-feed-title {
+.blog-post-title {
     font-weight: 700;
 }
 
-.blog-feed-excerpt {
+.blog-post-excerpt {
     
+}
+
+.blog-post-meta {
+
 }
 
 @media (max-width: 1019px) {

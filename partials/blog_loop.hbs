@@ -3,12 +3,12 @@
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
         </div>
         <a href="{{url}}">
-            <div class="post-card-meta">
-                <h2 class="blog-feed-title">{{title}}</h2>
-                <span class="post-caption-meta-item post-caption-meta-date">
+            <div class="post-card-info">
+                <h2 class="blog-post-title">{{title}}</h2>
+                <div class="blog-post-excerpt">{{excerpt words="24"}}...</div>
+                <span class="blog-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
                 </span>
-                <div class="blog-feed-excerpt">{{excerpt words="24"}}...</div>
             </div>
         </a>
 </div>
