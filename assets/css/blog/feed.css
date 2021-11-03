@@ -21,6 +21,14 @@
     width: 100%;
 }
 
+.blog-feed-title {
+    margin-top: 1rem;
+}
+
+.blog-feed-excerpt {
+    
+}
+
 @media (max-width: 1019px) {
     .post-feed {
         margin: -5px;
