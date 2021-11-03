@@ -78,9 +78,14 @@
     
 }
 
-.blog-post-excerpt a, .blog-post-excerpt a:hover, .blog-post-excerpt a:visited  {
+.blog-post-excerpt a, .blog-post-excerpt a:visited  {
     text-decoration: underline;
     text-decoration-color: var(--ghost-accent-color)
+}
+
+.blog-post-excerpt a:hover {
+    color: white;
+    background: var(--ghost-accent-color);
 }
 
 
