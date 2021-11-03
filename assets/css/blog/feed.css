@@ -45,6 +45,14 @@
     background-position: center;
 }
 
+.post-card-image-wrap {
+    background-color: #f7f7f7;
+    display: block;
+    height: 100px;
+    background-size: cover;
+    background-position: center;border-radius: 3px
+}
+
 .post-card-meta {
     flex-grow: 1;
     margin-left: 1.6rem;
