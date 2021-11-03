@@ -2,14 +2,13 @@
         <div class="post-card-image">
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
         </div>
-        <div class="post-card-meta">
-            <a href="{{url}}">
+        <a href="{{url}}"></a>
+            <div class="post-card-meta">
                 <h2 class="blog-feed-title">{{title}}</h2>
                 <span class="post-caption-meta-item post-caption-meta-date">
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
                 </span>
                 <div class="blog-feed-excerpt">{{excerpt words="24"}}...</div>
-            </a>
-        </div>
-        
+            </div>
+        </a>
 </div>
