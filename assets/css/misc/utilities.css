@@ -75,10 +75,12 @@
 
 .u-text-format a {
     text-decoration: underline;
+    text-decoration-color: var(--ghost-accent-color)
 }
 
 .u-text-format a:hover {
     text-decoration: underline;
+    text-decoration-color: var(--ghost-accent-color)
 }
 
 .u-text-format > .kg-card,
