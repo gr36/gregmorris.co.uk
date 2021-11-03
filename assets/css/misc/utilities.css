@@ -75,7 +75,8 @@
 
 .u-text-format a {
     text-decoration: underline;
-    text-decoration-color: var(--ghost-accent-color)
+    text-decoration-color: var(--ghost-accent-color);
+    text-decoration-color: 2px;
 }
 
 .u-text-format a:hover {
