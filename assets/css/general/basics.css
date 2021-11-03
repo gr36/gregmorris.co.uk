@@ -89,6 +89,7 @@ blockquote {
     font-weight: 500;
     border-left:8px solid var(--ghost-accent-color);
     line-height:1.45;
+    position: relative;
   }
   
   blockquote strong {
@@ -101,7 +102,7 @@ blockquote {
     color: var(--ghost-accent-color);
     font-size:4em;
     position: absolute;
-    left: 10px;
+    left: 5px;
     top:-10px;
   }
   
