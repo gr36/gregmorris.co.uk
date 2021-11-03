@@ -3,9 +3,11 @@
 <div class="content-area">
     <main class="blog-main container">
         <div class="blog-feed">
-            {{#foreach posts}}
-                {{> "blog_loop"}}
-            {{/foreach}}
+                <div class="blog-posts">
+                    {{#foreach posts}}
+                        {{> "blog_loop"}}
+                    {{/foreach}}
+            </div>
         </div>
         {{pagination}}
     </main>
