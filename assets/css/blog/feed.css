@@ -116,4 +116,7 @@ span.divider {
     .post-feed .grid-item {
         width: calc(100% / 2);
     }
+    .post-card-image {
+        display: none;
+    }
 }
