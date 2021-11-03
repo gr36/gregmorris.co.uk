@@ -81,7 +81,7 @@
 .blog-post-excerpt a, .blog-post-excerpt a:visited  {
     text-decoration: underline;
     text-decoration-color: var(--ghost-accent-color);
-    text-decoration-color: 2px;
+    text-decoration-thickness: 2px;
 }
 
 .blog-post-excerpt a:hover {
