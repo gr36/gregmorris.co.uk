@@ -1,6 +1,10 @@
 <div class="blog-post-card">
         <div class="post-card-image">
+            {{#if feature_image}}
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
+            {{else}}
+            <a class="post-card-image-wrap" href="{{url}}" style="background-image:url(/images/link.png)"></a>
+            {{/if}}
         </div>
         <a href="{{url}}">
             <div class="post-card-info">
