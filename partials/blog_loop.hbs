@@ -3,16 +3,24 @@
             {{#if feature_image}}
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
             {{else}}
-            <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{@site.url}}/images/link.png)"></a>
+            <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{@site.url}}/assets/images/link.png)"></a>
             {{/if}}
         </div>
         <a href="{{url}}">
             <div class="post-card-info">
+                {{#has tag="Link Posts"}}
                 <h2 class="blog-post-title">{{title}}</h2>
                 <div class="blog-post-excerpt">{{excerpt words="24"}}...</div>
                 <span class="blog-post-meta">
-                <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
+                <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time>
                 </span>
+                {{else}}
+                <h2 class="blog-post-title">{{title}} &#8594;</h2>
+                <div class="blog-post-excerpt">{{excerpt words="24"}}...</div>
+                <span class="blog-post-meta">
+                <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
+                </span>
+                {{/if}}
             </div>
         </a>
 </div>
