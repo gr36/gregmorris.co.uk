@@ -3,7 +3,7 @@
             {{#if feature_image}}
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
             {{else}}
-            <a class="post-card-image-wrap" href="{{url}}" style="background-image:url(/images/link.png)"></a>
+            <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{@site.url}}/images/link.png)"></a>
             {{/if}}
         </div>
         <a href="{{url}}">
