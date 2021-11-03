@@ -68,8 +68,19 @@ img {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+blockquote {
+    margin-right: 60px;
+    margin-left: 60px;
+    color: var(--secondary-text-color);
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+
 
 blockquote {
+    padding: 10px 20px 10px 50px;
     margin-right: 60px;
     margin-left: 60px;
     color: var(--secondary-text-color);
@@ -79,7 +90,7 @@ blockquote {
     border-left:8px solid var(--ghost-accent-color);
     line-height:1.45;
   }
-
+  
   blockquote strong {
     font-weight: 700;
 }
