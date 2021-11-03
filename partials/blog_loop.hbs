@@ -1,10 +1,9 @@
 <div class="blog-post-card">
+    {{#if feature_image}}
         <div class="post-card-image">
-            {{#if feature_image}}
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
-            
-            {{/if}}
         </div>
+    {{/if}}
         <a href="{{url}}">
             <div class="post-card-info">
                 
