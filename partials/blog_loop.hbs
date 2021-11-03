@@ -7,7 +7,7 @@
             {{/if}}
         </div>
     
-        <a href="{{url}}">
+
             <div class="post-card-info">
                 {{#if canonical_url}}
                 <h2 class="blog-post-title"><a href="{{canonical_url}}">{{title}} &#8594;</h2></a>
@@ -16,13 +16,13 @@
                 <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time><a href="{{url}}">  &#9733;</a>
                 </span>
                 {{else}}
-                <h2 class="blog-post-title">{{title}}</h2>
+                <h2 class="blog-post-title"><a href="{{url}}">{{title}}</h2></a>
                 <div class="blog-post-excerpt">{{content}}</div>
                 <span class="blog-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
                 </span>
                {{/if}}
             </div>
-        </a>
+
 </div>
 <span class="separator"><span class="divider"></span></span>
