@@ -88,7 +88,7 @@
     text-decoration-thickness: 2px;
 }
 
-.blog-post-excerpt a:hover {
+.blog-post-excerpt a:hover, .blog-post-content a:hover {
     color: white;
     background: var(--ghost-accent-color);
 }
