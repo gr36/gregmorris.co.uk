@@ -2,8 +2,10 @@
         <div class="post-card-image">
             {{#if feature_image}}
             <a class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
-            {{else}}
+            {{else if canonical_url}}
             <a class="link-post-card-image-wrap" href="{{url}}" style="background-image:url({{@site.url}}/assets/images/link.png)"></a>
+            {{else}}
+            <a class="link-post-card-image-wrap" href="{{url}}" style="background-image:url({{@site.url}}/assets/images/fallback.png)"></a>
             {{/if}}
         </div>
     
