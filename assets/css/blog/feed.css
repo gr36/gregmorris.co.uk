@@ -78,20 +78,9 @@
     color: var(--ghost-accent-color);
 }
 
-.link-post-content {
-    display: block;
-}
-
-.link-post-excerpt {
-    display: none;
-}
 
 .blog-post-meta a:hover {
     color: var(--ghost-accent-color)
-}
-
-.blog-post-excerpt {
-    display: block;
 }
 
 .blog-post-excerpt a, .blog-post-excerpt a:visited, .blog-post-content a, .blog-post-content a:visited  {
@@ -147,12 +136,7 @@ span.divider {
     .post-card-image {
         display: none;
     }
-    .link-post-content {
-        display: none;
-    }
-    .link-post-excerpt {
-        display: block;
-    }
+    
     .navbar-right {
         display: none;
     }
