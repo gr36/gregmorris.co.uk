@@ -86,7 +86,7 @@
     display: none;
 }
 
-.link-perma a:hover {
+.blog-post-meta a:hover {
     color: var(--ghost-accent-color)
 }
 
