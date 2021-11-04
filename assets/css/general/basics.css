@@ -129,9 +129,10 @@ pre {
 
 code {
     font-size: 14px;
+    text-shadow: 0 1px white;
+    background: #f5f2f0;
+    line-height: 1.5;
 }
-
-
 
 hr {
     position: relative;
