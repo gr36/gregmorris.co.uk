@@ -82,7 +82,7 @@
     display: none;
 }
 
-.blog-post-excerpt a, .blog-post-excerpt a:visited  {
+.blog-post-excerpt a, .blog-post-excerpt a:visited, .blog-post-content a, .blog-post-content a:visited  {
     text-decoration: underline;
     text-decoration-color: var(--ghost-accent-color);
     text-decoration-thickness: 2px;
