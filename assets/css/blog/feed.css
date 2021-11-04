@@ -141,4 +141,7 @@ span.divider {
     .blog-post-excerpt {
         display: block;
     }
+    .navbar-right {
+        display: none;
+    }
 }
