@@ -24,3 +24,14 @@
 .footer-nav .menu-item-link:hover {
     color: var(--dark-gray-color);
 }
+
+.mobile-social {
+    display: none;
+}
+
+@media (max-width: 640px) {
+   
+    .mobile-social {
+        display: block;
+    }
+}
