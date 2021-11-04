@@ -1,4 +1,4 @@
-{{#is "blog"}}
+{{#has slug="blog"}}
 <nav class="pagination" role="navigation">
     {{#if prev}}
         <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
@@ -20,4 +20,4 @@
         <div class="infinite-scroll-request"></div>
     </div>
 {{/if}}
-{{/is}
+{{/has}}
