@@ -163,6 +163,13 @@ hr::after {
     left: 20px;
 }
 
+.pagination {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
     blockquote {
         margin-right: 0;
