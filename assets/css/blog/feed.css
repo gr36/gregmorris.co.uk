@@ -86,6 +86,10 @@
     display: none;
 }
 
+.link-perma a:hover {
+    color: var(--ghost-accent-color)
+}
+
 .blog-post-excerpt {
     display: block;
 }
