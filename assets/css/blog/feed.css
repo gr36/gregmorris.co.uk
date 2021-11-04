@@ -74,8 +74,12 @@
     font-weight: 700;
 }
 
+.blog-post-content {
+    display: block;
+}
+
 .blog-post-excerpt {
-    
+    display: none;
 }
 
 .blog-post-excerpt a, .blog-post-excerpt a:visited  {
@@ -130,5 +134,11 @@ span.divider {
     }
     .post-card-image {
         display: none;
+    }
+    .blog-post-content {
+        display: none;
+    }
+    .blog-post-excerpt {
+        display: block;
     }
 }
