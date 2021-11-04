@@ -74,6 +74,10 @@
     font-weight: 700;
 }
 
+.blog-post-title a:hover {
+    color: var(--ghost-accent-color);
+}
+
 .blog-post-content {
     display: block;
 }
