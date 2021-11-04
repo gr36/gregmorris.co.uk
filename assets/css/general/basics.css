@@ -124,7 +124,7 @@ figcaption {
 }
 
 pre {
-    overflow-x: scroll;
+    white-space: pre-wrap;
 }
 
 code {
