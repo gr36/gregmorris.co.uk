@@ -190,5 +190,12 @@ hr::after {
     h1, h2, h3, h4, h5, h6 {
         color: var(--darkmode-text-color);
     }
+    pre {
+        background: #363636;
+    }
+    
+    code {
+        color: var(--darkmode-text-color);
+    }
 
 }
