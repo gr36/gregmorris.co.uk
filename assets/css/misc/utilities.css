@@ -98,3 +98,9 @@
 .u-text-format blockquote + * {
     margin-top: 30px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .u-text-format strong {
+        color: var(--darkmode-text-color);
+    }
+}
