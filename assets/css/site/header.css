@@ -75,10 +75,16 @@
 
 @media (prefers-color-scheme: dark) {
 
-.main-nav .menu-item-link {
+    .main-nav .menu-item-link {
     color: var(--darkmode-text-color);
     }
-.logo-text {
+    
+    .logo-text {
     color: var(--darkmode-text-color);
-}
+    }
+    .navbar {
+        color: var(--darkmode-text-color);
+        background: var(--darkmode-background);
+    }
+
 }
