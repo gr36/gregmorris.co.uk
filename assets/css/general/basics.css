@@ -184,5 +184,8 @@ hr::after {
         color: var(--darkmode-text-color);
         background: var(--darkmode-background);
     }
+    a {
+        color: var(--darkmode-text-color);
+    }
 
 }

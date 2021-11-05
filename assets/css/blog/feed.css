@@ -141,3 +141,15 @@ span.divider {
         display: none;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .blog-post-meta {
+        color: var(--darkmode-text-color);
+    }
+
+    span.divider {
+        background: var(--darkmode-background);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
+    }
+
+}

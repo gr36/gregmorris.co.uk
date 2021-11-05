@@ -72,3 +72,10 @@
         padding: 0 15px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+
+.main-nav .menu-item-link {
+    color: var(--darkmode-text-color);
+    }
+}

@@ -17,3 +17,9 @@
         transform: scale(1);
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .page-number {
+        color: var(--darkmode-text-color);
+    }
+}
