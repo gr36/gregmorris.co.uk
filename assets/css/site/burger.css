@@ -51,3 +51,9 @@
     transition: transform 0.1806s cubic-bezier(0.04, 0.04, 0.12, 0.96);
     transform: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    .burger-bar::before {
+        background-color: var(--darkmode-text-color);
+    }
+}
