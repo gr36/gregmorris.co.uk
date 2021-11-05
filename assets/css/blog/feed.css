@@ -143,13 +143,17 @@ span.divider {
 }
 
 @media (prefers-color-scheme: dark) {
-    .blog-post-title, .blog-post-title a, .blog-post-title a:visited, .blog-post-excerpt, .blog-post-content {
+    .post-card-info {
         color: var(--darkmode-text-color);
     }
 
     span.divider {
         background: var(--darkmode-background);
         background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
+    }
+
+    .link-post-card-image-wrap {
+        background: var(--darkmode-background);
     }
 
 }
