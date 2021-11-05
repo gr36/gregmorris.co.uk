@@ -67,3 +67,9 @@
         margin-top: 40px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .post-title {
+        color: var(--darkmode-text-color);
+    }
+}
