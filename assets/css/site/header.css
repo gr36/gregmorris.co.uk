@@ -82,8 +82,9 @@
     .logo-text {
     color: var(--darkmode-text-color);
     }
+
     .main-nav .menu-item-current .menu-item-link,
-.main-nav .menu-item-link:hover {
+    .main-nav .menu-item-link:hover {
     background-color: var(--ghost-accent-color);
     }
 }
