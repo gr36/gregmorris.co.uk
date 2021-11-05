@@ -23,6 +23,10 @@
     line-height: 1.9;
 }
 
+.post-content .blog-post-meta a {
+    text-decoration: none;
+}
+
 .post-caption {
     display: none;
 }
