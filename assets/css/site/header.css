@@ -82,9 +82,5 @@
     .logo-text {
     color: var(--darkmode-text-color);
     }
-    .navbar {
-        color: var(--darkmode-text-color);
-        background: var(--darkmode-background);
-    }
 
 }

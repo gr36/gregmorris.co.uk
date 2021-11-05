@@ -27,3 +27,10 @@
 .menu-opened .mobile-menu {
     display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+    .mobile-menu {
+        color: var(--darkmode-text-color);
+        background: var(--darkmode-background);
+    }
+}
