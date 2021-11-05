@@ -143,7 +143,7 @@ span.divider {
 }
 
 @media (prefers-color-scheme: dark) {
-    .blog-post-meta {
+    .blog-post-title, .blog-post-title a, .blog-post-title a:visited, .blog-post-excerpt, .blog-post-content {
         color: var(--darkmode-text-color);
     }
 

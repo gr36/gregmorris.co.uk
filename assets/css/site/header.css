@@ -78,4 +78,7 @@
 .main-nav .menu-item-link {
     color: var(--darkmode-text-color);
     }
+.logo-text {
+    color: var(--darkmode-text-color);
+}
 }
