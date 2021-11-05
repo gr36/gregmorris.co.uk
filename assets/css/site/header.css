@@ -82,7 +82,8 @@
     .logo-text {
     color: var(--darkmode-text-color);
     }
-    .menu-item-current {
+    .main-nav .menu-item-current .menu-item-link,
+.main-nav .menu-item-link:hover {
         color: var(--darkmode-background-color);
     }
 }
