@@ -1,6 +1,14 @@
 .post-header {
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.back-to-blog {
+    text-align: center;
+}
+
+.back-to-blog a:hover { 
+    background-color: var(--ghost-accent-color);
 }
 
 .post-title {
