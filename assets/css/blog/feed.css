@@ -80,7 +80,7 @@
 
 
 .blog-post-meta a:hover {
-    color: var(--ghost-accent-color)
+    color: var(--ghost-accent-color);
 }
 
 .blog-post-excerpt a, .blog-post-excerpt a:visited, .blog-post-content a, .blog-post-content a:visited  {
