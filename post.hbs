@@ -4,9 +4,11 @@
     <main class="site-main">
         {{#post}}
             <article class="{{post_class}} single">
+                {{#is "post"}}
                 <div class="back-to-blog">
                     <a href="{{@site.url}}/blog/">&#8592; Back to the blog</a>
-                </div> 
+                </div>
+                {{/is}}
                 <header class="post-header container large">
                     <h1 class="post-title">{{title}}</h1>
                 </header>
@@ -39,7 +41,7 @@
                 </div>
             </article>
         {{/post}}
-
+            {{#is "post"}}
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8335452151565777"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -51,7 +53,7 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
+            {{/is}}
         {{> related}}
     </main>
 </div>
