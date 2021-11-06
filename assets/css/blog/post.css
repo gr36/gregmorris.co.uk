@@ -9,6 +9,7 @@
 
 .back-to-blog a:hover { 
     background-color: var(--ghost-accent-color);
+    color: var(--font-color-dark);
 }
 
 .post-title {
