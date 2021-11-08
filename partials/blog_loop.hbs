@@ -10,17 +10,18 @@
 
             <div class="post-card-info">
                 {{#if canonical_url}}
-                <h2 class="blog-post-title"><a href="{{canonical_url}}">{{title}} &#8594;</h2></a>
+                <h2 class="link-post-title"><a href="{{canonical_url}}">{{title}} &#8594;</h2></a>
                 <div class="blog-post-content">{{content}}</div>
-                <span class="blog-post-meta">
+                <div class="link-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time><a href="{{url}}">  &#9733;</a>
-                </span>
+                </div>
                 {{else}}
                 <h2 class="blog-post-title"><a href="{{url}}">{{title}}</h2></a>
-                <div class="blog-post-excerpt">{{excerpt}}</div>
-                <span class="blog-post-meta">
+                <div class="blog-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
-                </span>
+                </div>
+                <div class="blog-post-excerpt">{{excerpt}}</div>
+                <div class="continue-reading"><a href="{{url}}">Continue Reading...</a></div>
                {{/if}}
             </div>
 

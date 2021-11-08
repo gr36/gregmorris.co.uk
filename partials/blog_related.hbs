@@ -1,7 +1,7 @@
 {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+tags:-[link]+id:-{{post.id}}" as |related|}}
     {{#if related}}
         <section class="related-posts">
-            <div class="container">
+            <div class="related-container">
                 <h3 class="related-title">You Might Also Like...</h3>
                 <div class="post-feed">
                     {{#foreach posts}}

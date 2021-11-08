@@ -3,6 +3,16 @@
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
+    display: block;
+}
+
+.related-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    max-width: 990px;
 }
 
 @media (min-width: 1020px) {

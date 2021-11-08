@@ -72,9 +72,14 @@
 
 .blog-post-title {
     font-weight: 700;
+    margin: 0 0 0
 }
 
-.blog-post-title a:hover {
+.link-post-title {
+    font-weight: 700;
+}
+
+.blog-post-title a:hover, .link-post-title a:hover {
     color: var(--ghost-accent-color);
 }
 
@@ -97,6 +102,25 @@
 
 .blog-post-meta {
     font-weight: 500;
+    color: var(--ghost-accent-color);
+    margin-bottom: 10px;
+}
+
+.link-post-meta {
+    font-weight: 500;
+    color: var(--ghost-accent-color);
+    margin-top: -20px;
+}
+
+.continue-reading a {
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--ghost-accent-color)
+}
+
+.continue-reading a:hover {
+    background: var(--ghost-accent-color);
+    color: var(--darkmode-text-color);
 }
 
 span.separator {
