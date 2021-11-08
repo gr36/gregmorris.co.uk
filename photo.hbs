@@ -1,0 +1,59 @@
+{{!< default}}
+
+<div class="content-area">
+    <main class="site-main">
+        {{#post}}
+            <article class="{{post_class}} single">
+                {{#is "post"}}
+                <div class="back-to-blog">
+                    <a href="{{@site.url}}">&#8592; Back home</a>
+                </div>
+                {{/is}}
+                <header class="post-header container large">
+                    <h1 class="post-title">{{title}}</h1>
+                </header>
+                {{#if custom_excerpt}}
+                    <div class="post-excerpt container medium">{{custom_excerpt}}</div>
+                {{/if}}
+                {{#if feature_image}}
+                    <figure class="post-media container large">
+                        <img class="post-image" srcset="{{> srcset}}"
+                            sizes="(min-width: 1170px) 1140px, (min-width: 780px) 750px, calc(100vw - 30px)"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}">
+
+                        {{#if feature_image_caption}}
+                            <figcaption>{{feature_image_caption}}</figcaption>
+                        {{/if}}
+                    </figure>
+                {{/if}}
+                <div class="post-content kg-canvas u-text-format">
+                    {{content}}
+                {{#is "post"}}
+                <span class="blog-post-meta">
+                    {{#if canonical_url}}
+                        <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time><a href="{{url}}">  &#9733;</a>
+                    {{else}}
+                    <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
+                    {{/if}}
+                </span>
+                {{/is}}
+                </div>
+            </article>
+        {{/post}}
+            {{#is "post"}}
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8335452151565777"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8335452151565777"
+     data-ad-slot="5524743860"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            {{/is}}
+        {{> related}}
+    </main>
+</div>
