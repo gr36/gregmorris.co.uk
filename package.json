@@ -1,6 +1,6 @@
 {
-    "name": "edge",
-    "description": "A Ghost theme",
+    "name": "greg-morris",
+    "description": "The them used on gregmorris blog",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=4.0.0",
@@ -8,15 +8,31 @@
     },
     "license": "MIT",
         "author": {
-            "name": "Ghost Foundation",
-            "email": "hello@ghost.org",
-            "url": "https://ghost.org"
+            "name": "Greg Morris",
+            "email": "hello@gregmorris.co.uk",
+            "url": "https://gregmorris.co.uk"
         },
     "keywords": [
         "ghost",
         "theme",
         "ghost-theme"
     ],
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "minimal",
+            "blog",
+            "linkposts"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gr36/gregmorris.co.uk.git"
+    },
+    "screenshots": {
+        "desktop": "{{asset screenshot-desktop.png}}",
+        "mobile": "{{asset screenshot-mobile.jpg}}"
+    },
     "config": {
         "posts_per_page": 10,
         "image_sizes": {
