@@ -61,6 +61,7 @@
     height: 100px;
     background-size: cover;
     background-position: center;
+    background-image: url("/assets/images/link-black.svg");
 }
 
 .post-card-info {
@@ -177,6 +178,7 @@ span.divider {
 
     .link-post-card-image-wrap {
         background: var(--darkmode-background);
+        background-image: url("/assets/images/link-white.svg");
     }
 
 }
