@@ -1,6 +1,7 @@
 #carbonads * {
-    margin: initial;
-    padding: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   #carbonads {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
