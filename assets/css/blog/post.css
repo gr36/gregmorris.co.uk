@@ -52,6 +52,10 @@
     padding-top: 20px;
 }
 
+.related-title a:hover {
+    color: var(--ghost-accent-color);
+}
+
 .post-link {
     display: block;
 }
