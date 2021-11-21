@@ -6,7 +6,7 @@
     display: block;
 }
 
-.related-container, .hero-container {
+.related-container, .tip, .hero-container {
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
