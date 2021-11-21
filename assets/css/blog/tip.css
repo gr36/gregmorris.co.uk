@@ -19,7 +19,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .tip {
+    .tip-block {
         background: var(--white-color);
     }
     .tip-title {
