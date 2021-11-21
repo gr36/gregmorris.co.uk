@@ -1,8 +1,13 @@
-.tip {
+.tip-container {
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    max-width: 800px;
+}
+.tip-block {
     background: var(--darkmode-background);
 }
 
