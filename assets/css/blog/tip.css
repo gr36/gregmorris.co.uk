@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     background: var(--darkmode-background);
-    color: var(--darkmode-text-color);
+    color: var(--white-color);
 }
 
 @media (prefers-color-scheme: dark) {
