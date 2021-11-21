@@ -5,6 +5,8 @@
     margin-right: auto;
     background: var(--darkmode-background);
     color: var(--white-color);
+    font-size: 22px;
+    line-height: 1.7;
 }
 
 @media (prefers-color-scheme: dark) {
