@@ -10,6 +10,7 @@
 .tip-block {
     background: var(--darkmode-background);
     border-radius: 11px;
+    padding: 20px;
 }
 
 .tip-title {
