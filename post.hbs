@@ -36,8 +36,10 @@
                 {{/is}}
                 </div>
             </article>
+        {{#has tag="#tip"}}
+            {{> tip}}
+        {{/has}}
         {{/post}}
-        {{> tip}}
         {{> blog_related}}
     </main>
 </div>
