@@ -9,12 +9,13 @@
 }
 .tip-block {
     background: var(--darkmode-background);
+    border-radius: 11px;
 }
 
 .tip-title {
     font-size: 22px;
     line-height: 1.7;
-    margin: 0 0 20px;
+    text-align: center;
     color: var(--white-color);
 }
 
