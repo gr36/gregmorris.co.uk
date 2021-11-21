@@ -3,4 +3,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background: var(--darkmode-background);
+    color: var(--darkmode-text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    .tip {
+    background: var(--white-color);
+    color: var(--darkmode-text-color);
+    }
 }
