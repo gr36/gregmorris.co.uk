@@ -11,6 +11,7 @@
     background: var(--darkmode-background);
     border-radius: 11px;
     padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .tip-title {
@@ -29,6 +30,7 @@
 @media (prefers-color-scheme: dark) {
     .tip-block {
         background: var(--white-color);
+        box-shadow: 0px 4px 10px rgba(92, 91, 91, 0.2);
     }
     .tip-title {
         color: var(--primary-text-color);
