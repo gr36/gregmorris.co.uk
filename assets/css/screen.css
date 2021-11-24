@@ -14,6 +14,7 @@
 @import "blog/pagination.css";
 @import "blog/related.css";
 @import "blog/tip.css";
+@import "blog/comments.css";
 @import "vendor/mdi.css";
 @import "vendor/pswp.css";
 @import "misc/kg.css";
