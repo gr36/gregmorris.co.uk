@@ -137,7 +137,11 @@ span.divider {
     width: 60%;
     margin: 3rem auto;
 }
-
+.search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media (max-width: 1019px) {
     .post-feed {
