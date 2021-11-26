@@ -14,6 +14,11 @@
         //optional: set your custom ghost_root url, default is `"/ghost/api/v2"`
         var ghost_root_url = "/ghost/api/v2"
     </script>
+    <script>
+    $("#search-field").ghostHunter({
+      results: "#results"
+    });
+  </script>
     {{ghost_head}}
 </head>
 
