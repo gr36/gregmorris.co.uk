@@ -33,9 +33,6 @@
     let ghostSearch = new GhostSearch({
         key: '1f5b99a8a742a3252b05785562',
         url: 'https://gregmorris.co.uk',
-    
-        input: '#search-input',
-        results: '#search-results',
         options: {
 	        keys: [
 	            'title',
@@ -50,7 +47,7 @@
 	        },
 	    },
 	    template: function(result) {
-	        let collection = 'blog';
+	        let collection = '/';
 	        let url = [location.protocol, '//', location.host].join('') + '/' + collection;
 	        return '<a href="' + url + '/' + result.slug + '/">' + result.title + '</a>';  
 	    },
