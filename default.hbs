@@ -33,24 +33,7 @@
     let ghostSearch = new GhostSearch({
         key: '1f5b99a8a742a3252b05785562',
         url: 'https://gregmorris.co.uk',
-        options: {
-	        keys: [
-	            'title',
-	        ],
-	    },
-	    api: {
-	        resource: 'posts',
-	        parameters: { 
-	            fields: ['title', 'slug'],
-	            filter: 'tags:[blog]',
-	            include: 'tags'
-	        },
-	    },
-	    template: function(result) {
-	        let collection = '/';
-	        let url = [location.protocol, '//', location.host].join('') + '/' + collection;
-	        return '<a href="' + url + '/' + result.slug + '/">' + result.title + '</a>';  
-	    },
+	    
     })
 </script>
 
