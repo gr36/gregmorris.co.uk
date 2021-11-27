@@ -3165,7 +3165,7 @@ lunr.QueryParser.parseBoost = function (parser) {
 		resultsData			: false,
 		onPageLoad			: false,
 		onKeyUp				: false,
-		result_template 	: "<a id='gh-{{ref}}' class='gh-search-item' href='{{link}}'><p><h2>{{title}}</h2><h4>{{date published_at}}</h4></p></a>",
+		result_template 	: "<a id='gh-{{ref}}' class='gh-search-item' href='{{link}}'><p><h2>{{title}}</h2><h4>{{PubDate}}</h4></p></a>",
 		info_template		: "<p>Number of posts found: {{amount}}</p>",
 		displaySearchInfo	: true,
 		zeroResultsInfo		: true,
