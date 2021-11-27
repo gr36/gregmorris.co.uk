@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="{{asset "/css/screen.css"}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&amp;subset=latin-ext">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <script src="{{asset "js/ghost-finder.js"}}"></script>
-    {{!-- Load ghost search script --}}
-<script>
-    new GhostFinder({
-        input: '#search-input',
-        showResult: '#search-result',
-        contentApiKey: 1f5b99a8a742a3252b05785562,
-    })
-</script>
 
     {{ghost_head}}
 </head>
@@ -36,6 +27,15 @@
         crossorigin="anonymous">
     </script>
     <script src="{{asset "/built/main.min.js"}}"></script>
+    <script src="https://unpkg.com/@tryghost/content-api@{version}/umd/content-api.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/ghost-search.min.js"}}"></script>
+<script>
+    let ghostSearch = new GhostSearch({
+        key: '1f5b99a8a742a3252b05785562', // This is just a demo key. Replace the key with a real one. See Step 3.
+        url: 'https://gregmorris.co.uk', // This is just a demo host. Replace the demo url with a real one. See Step 3.
+    })
+</script>
+
     {{{block "scripts"}}}
     {{ghost_foot}}
 </body>
