@@ -32,8 +32,19 @@
     <script src="{{asset "/built/main.min.js"}}"></script>
     <!--ghostHunter code -->
     <script type="text/javascript" src="{{asset "ghostHunter/dist/jquery.ghosthunter.js"}}"></script>
-    <script> $("#search-field").ghostHunter({ results   : "#results" });</script>
+    <script>
 
+        var searchField = $("#search-field").ghostHunter({
+                            results     : "#results",
+                            onKeyUp   : true,
+                            
+                          });
+
+        function clearResults() {
+          searchField.clear();
+        }
+
+      </script>
     {{{block "scripts"}}}
     {{ghost_foot}}
 </body>
