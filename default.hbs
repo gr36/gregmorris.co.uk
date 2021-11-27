@@ -30,15 +30,11 @@
         crossorigin="anonymous">
     </script>
     <script src="{{asset "/built/main.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "ghostHunter/jquery.ghosthunter.js"}}"></script>
-    <script>
-    $("#search-field").ghostHunter({
-      results   : "#results"
-    });
-  </script>
+    <!--ghostHunter code -->
+    <script type="text/javascript" src="{{asset "ghostHunter/dist/jquery.ghosthunter.js"}}"></script>
+    <script> $("#search-field").ghostHunter({ results   : "#results" });</script>
 
     {{{block "scripts"}}}
-    <script src="https://cdn.cove.chat/comments.js" data-cove-id="bc9b01ab3bf66416574bf385421e45e0" async></script>
     {{ghost_foot}}
 </body>
 
