@@ -33,7 +33,21 @@
     let ghostSearch = new GhostSearch({
         key: '1f5b99a8a742a3252b05785562',
         url: 'https://gregmorris.co.uk',
-	    
+	    options: {
+            keys: [
+                'title',
+                'plaintext'
+            ],
+        },
+        api: {
+            resource: 'posts',
+            parameters: { 
+                fields: ['title', 'slug', 'plaintext'],
+                formats: 'plaintext',
+                filter: 'tags:[blog]',
+	            include: 'tags'
+            },
+        },
     })
 </script>
 
