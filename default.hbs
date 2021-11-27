@@ -36,6 +36,24 @@
         input: '#search-field',
         results: '#search-results',
         button: '#search-button',
+        options: {
+	        keys: [
+	            'title',
+	        ],
+	    },
+	    api: {
+	        resource: 'posts',
+	        parameters: { 
+	            fields: ['title', 'slug'],
+	            filter: 'tags:[blog]',
+	            include: 'tags'
+	        },
+	    },
+	    template: function(result) {
+	        let collection = 'blog';
+	        let url = [location.protocol, '//', location.host].join('') + '/' + collection;
+	        return '<a href="' + url + '/' + result.slug + '/">' + result.title + '</a>';  
+	    },
     })
 </script>
 
