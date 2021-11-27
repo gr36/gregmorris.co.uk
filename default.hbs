@@ -11,11 +11,11 @@
     <script src="{{asset "js/ghost-finder.js"}}"></script>
     {{!-- Load ghost search script --}}
 <script>
-new GhostFinder({
-input: ‘.search-field’,
-showResult: ‘.search-results’,
-contentApiKey: '1f5b99a8a742a3252b05785562',
-})
+    new GhostFinder({
+        input: '#search-input',
+        showResult: '#search-result',
+        contentApiKey: 1f5b99a8a742a3252b05785562,
+    })
 </script>
 
     {{ghost_head}}
