@@ -34,6 +34,27 @@
         key: '1f5b99a8a742a3252b05785562',
         url: 'https://gregmorris.co.uk',
         version: 'v4',
+        input: '#search-input',
+        results: '#search-results',
+        button: '#search-button',
+        options: {
+	        keys: [
+	            'title',
+	        ],
+	    },
+	    api: {
+	        resource: 'posts',
+	        parameters: { 
+	            fields: ['title', 'slug'],
+	            filter: 'tags:[blog]',
+	            include: 'tags'
+	        },
+	    },
+	    template: function(result) {
+	        let collection = 'themes';
+	        let url = [location.protocol, '//', location.host].join('') + '/' + collection;
+	        return '<a href="' + url + '/' + result.slug + '/">' + result.title + '</a>';  
+	    },
     })
 </script>
 
