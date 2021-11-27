@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="{{asset "/css/screen.css"}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&amp;subset=latin-ext">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <script src="{{asset "search/ghost-finder.js"}}"></script>
+    <script src="{{asset "js/ghost-finder.js"}}"></script>
     {{!-- Load ghost search script --}}
 <script>
 new GhostFinder({
 input: ‘.search-field’,
 showResult: ‘.search-results’,
-time_format: ‘DD MMM YYYY’,
-singleResultTemplate: '<a href="##url" class="search-result"> <img class="search-result-thumbnail" src="##feature_image" alt="##title"> <div class="search-result-title-container"><p class="search-result-title">##title</p></div> </a>',
-contentApiKey: '1f5b99a8a742a3252b05785562'
+contentApiKey: '1f5b99a8a742a3252b05785562',
 })
 </script>
 
