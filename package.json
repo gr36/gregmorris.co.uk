@@ -7,11 +7,11 @@
         "ghost-api": "v4"
     },
     "license": "MIT",
-        "author": {
-            "name": "Greg Morris",
-            "email": "hello@gregmorris.co.uk",
-            "url": "https://gregmorris.co.uk"
-        },
+    "author": {
+        "name": "Greg Morris",
+        "email": "hello@gregmorris.co.uk",
+        "url": "https://gregmorris.co.uk"
+    },
     "keywords": [
         "ghost",
         "theme",
@@ -78,5 +78,8 @@
         "stylelint": "14.0.1",
         "stylelint-config-standard": "23.0.0",
         "stylelint-order": "5.0.0"
+    },
+    "dependencies": {
+        "tailwindcss": "^2.2.19"
     }
 }
