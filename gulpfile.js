@@ -9,6 +9,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const beeper = require('beeper');
 const zip = require('gulp-zip');
+const tailwind = require('tailwindcss')
 
 // postcss plugins
 const easyimport = require('postcss-easy-import');
@@ -47,6 +48,13 @@ function css(done) {
         dest('assets/built/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));
+    var processors = [
+        easyimport,
+        colorFunction(),
+        tailwind(), // add this
+        autoprefixer(),
+        cssnano()
+    ];
 }
 
 function js(done) {
@@ -89,6 +97,7 @@ function zipper(done) {
         dest('dist/')
     ], handleError(done));
 }
+
 
 const hbsWatcher = () => watch(['*.hbs', 'partials/**/*.hbs', 'members/**/*.hbs'], hbs);
 const cssWatcher = () => watch('assets/css/**/*.css', css);
