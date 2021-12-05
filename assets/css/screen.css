@@ -22,8 +22,4 @@
 @import "misc/utilities.css";
 @import "misc/ads.css";
 
-/* Tailwind - add this part */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
