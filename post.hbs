@@ -35,7 +35,7 @@
                     {{#if tags}}
                     <div class="post-tag">
                     Tagged as: 
-                        {{#foreach tags}}
+                        {{#foreach tags filter="tag:-[{{primary_tag}}]"}}
                             <a href="{{url}}">{{name}}</a>
                         {{/foreach}}
                     {{/if}}
