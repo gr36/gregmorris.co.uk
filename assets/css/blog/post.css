@@ -53,14 +53,19 @@
 }
 
 .post-tag {
-    color: var(--light--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 .post-tag  a {
-    color: var(--darkmode-text-color);
-    background: var(--ghost-accent-color);
+    color: var(--primary-text-color);
+    background-color: var(--light-gray-color);
     padding: 10px;
     border-radius: 11px;
+}
+
+.post-tag a:hover {
+    background-color: var(--ghost-accent-color);
+    color: var(--darkmode-text-color);
 }
 
 .post-lightbox {
@@ -102,6 +107,9 @@
 
 @media (prefers-color-scheme: dark) {
     .post-title {
+        color: var(--darkmode-text-color);
+    }
+    .post-tag {
         color: var(--darkmode-text-color);
     }
 }
