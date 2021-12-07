@@ -52,6 +52,13 @@
     display: block;
 }
 
+.post-tag {
+    color: var(--darkmode-text-color);
+    background: var(--ghost-accent-color);
+    padding: 2px;
+    border-radius: 11px;
+}
+
 .post-lightbox {
     position: absolute;
     right: 15px;
