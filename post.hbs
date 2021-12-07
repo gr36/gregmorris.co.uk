@@ -31,13 +31,15 @@
                         <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time><a href="{{url}}">  &#9733;</a>
                     {{else}}
                     <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
-                    {{/if}}
-                    Tagged as:   
+                    {{/if}} 
                     {{#if tags}}
+                    <div class="post-tag">
+                    Tagged as: 
                         {{#foreach tags}}
-                            <a href="{{url}}" title="{{name}}" class="post-tag">{{name}}</a>
+                            <a href="{{url}}">{{name}}</a>
                         {{/foreach}}
                     {{/if}}
+                    </div>
                 </span>
                 {{/is}}
                 </div>
