@@ -44,6 +44,12 @@
     text-decoration: none;
 }
 
+.blog-post-meta {
+    font-weight: 500;
+    color: var(--ghost-accent-color);
+    margin-bottom: 40px;
+}
+
 .post-caption {
     display: none;
 }
