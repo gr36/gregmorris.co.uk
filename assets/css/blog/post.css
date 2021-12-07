@@ -52,7 +52,7 @@
     display: block;
 }
 
-.post-tag {
+.post-tag  a {
     color: var(--darkmode-text-color);
     background: var(--ghost-accent-color);
     padding: 2px;
