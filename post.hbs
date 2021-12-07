@@ -32,7 +32,12 @@
                     {{else}}
                     <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
                     {{/if}}
-                    <div class="post-tag">{{tags separator=" " prefix="Tagged as:   "}}</div>
+                    Tagged as:   
+                    {{#if tags}}
+                        {{#foreach tags}}
+                            <a href="{{url}}" title="{{name}}" class="post-tag">{{name}}</a>
+                        {{/foreach}}
+                    {{/if}}
                 </span>
                 {{/is}}
                 </div>
