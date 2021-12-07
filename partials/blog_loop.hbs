@@ -12,12 +12,12 @@
                 {{#if canonical_url}}
                 <h2 class="link-post-title"><a href="{{canonical_url}}">{{title}} &#8594;</h2></a>
                 <div class="blog-post-content">{{content}}</div>
-                <div class="link-feed-meta">
+                <div class="link-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">Linked on {{date published_at}}</time><a href="{{url}}">  &#9733;</a>
                 </div>
                 {{else}}
                 <h2 class="blog-post-title"><a href="{{url}}">{{title}}</h2></a>
-                <div class="blog-feed-meta">
+                <div class="blog-post-meta">
                 <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
                 </div>
                 <div class="blog-post-excerpt">{{excerpt}}</div>

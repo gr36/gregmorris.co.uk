@@ -96,19 +96,19 @@
 }
 
 
-.blog-feed-meta {
+.blog-post-meta {
     font-weight: 500;
     color: var(--ghost-accent-color);
     margin-bottom: 10px;
 }
 
-.link-feed-meta {
+.link-post-meta {
     font-weight: 500;
     color: var(--ghost-accent-color);
     margin-top: -20px;
 }
 
-.blog-feed-meta a:hover, .link-feed-meta a:hover {
+.blog-post-meta a:hover, .link-post-meta a:hover {
     color: var(--ghost-accent-color);
 }
 
