@@ -52,10 +52,14 @@
     display: block;
 }
 
+.post-tag {
+    color: var(--light--primary-text-color);
+}
+
 .post-tag  a {
     color: var(--darkmode-text-color);
     background: var(--ghost-accent-color);
-    padding: 2px;
+    padding: 10px;
     border-radius: 11px;
 }
 
