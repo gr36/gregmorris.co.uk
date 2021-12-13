@@ -43,18 +43,12 @@ function css(done) {
         postcss([
             easyimport,
             autoprefixer(),
-            cssnano()
+            cssnano(),
+            tailwind(),
         ]),
         dest('assets/built/', {sourcemaps: '.'}),
         livereload()
     ], handleError(done));
-    var processors = [
-        easyimport,
-        colorFunction(),
-        tailwind(), // add this
-        autoprefixer(),
-        cssnano()
-    ];
 }
 
 function js(done) {
