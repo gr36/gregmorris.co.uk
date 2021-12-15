@@ -5,7 +5,7 @@
                 <time datetime="{{date format="YYYY-MM-DD"}}">Posted on {{date published_at}}</time>
                 </div>
                 {{#if feature_image}}
-                <div class="post-card-image-wrap" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></div>
+                <img class="hero-image" style="background-image:url({{img_url feature_image size="s"}})">
                 {{/if}}
                 <div class="blog-post-excerpt">{{content}}</div>
             </div>
