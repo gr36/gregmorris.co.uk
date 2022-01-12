@@ -28,6 +28,9 @@
 
 .logo-image {
     max-height: 30px;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
 }
 
 .logo-text {
@@ -36,6 +39,7 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 .nav-list {
