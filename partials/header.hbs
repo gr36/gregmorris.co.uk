@@ -16,9 +16,10 @@
             </div>
             <a class="logo" href="{{@site.url}}">
                 {{#if @site.logo}}
-                    <img class="logo-image" src="{{asset "/images/icon.svg"}}" alt="{{@site.title}}">
+                    <img class="logo-image" src="{{@site.logo}}" alt="{{@site.title}}"><span class="logo-text">{{@site.title}}</span>
                 {{/if}}
                     <span class="logo-text">{{@site.title}}</span>
+   
             </a>
         </div>
         {{#if @site.navigation}}
