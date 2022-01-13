@@ -16,7 +16,7 @@
             </div>
             <a class="logo" href="{{@site.url}}">
                 {{#if @site.logo}}
-                    <img class="logo-image" src="{{asset "/images/icon.svg"}}" alt="{{@site.title}}">
+                <object type="image/svg+xml" data="{{asset "/images/icon.svg"}}" class="logo-image" alt="{{@site.title}}"></object>
                 {{/if}}
                     <span class="logo-text">{{@site.title}}</span>
    
