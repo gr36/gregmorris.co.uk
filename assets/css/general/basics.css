@@ -14,7 +14,6 @@
     --dark-gray-color: #1a1a1a;
     --black-color: #000;
     --font-base: rubik, sans-serif;
-    --font-heading: myfont;
     --animation-base: ease-in-out;
 }
 
@@ -52,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-heading);
+    font-family: myfont;
     margin: 0 0 20px;
     color: var(--dark-gray-color);
     line-height: 1.2;
