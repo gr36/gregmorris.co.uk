@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'Cartridge';
+    font-family: Cartridge;
     font-style: normal;
+    font-feature-settings: salt;
     src: local('cartridge-regular') url(faonts/cartridge-regular.woff) format('woff');
   }
 
