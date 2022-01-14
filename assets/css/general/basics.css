@@ -1,7 +1,7 @@
 @font-face {
     font-family: Cartridge;
     font-style: normal;
-    font-variant-alternates: stylistic;
+    font-feature-settings: ss01;
     src: local('cartridge-regular') url(faonts/cartridge-regular.woff) format('woff');
   }
 
