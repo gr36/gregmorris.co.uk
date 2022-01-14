@@ -1,9 +1,8 @@
 @font-face {
-    font-family: "Cartridge";
-    font-style: normal;
-    font-feature-settings: "ss01";
-    src: local('cartridge-regular') url("{{asset "/fonts/cartridge-regular.woff"}}" format('woff');
-  }
+    font-family:"Cartridge";
+    src:url("{{asset "/fonts/Cartridge-Regular.woff2"}}") format("woff2"),
+    url("{{asset "/fonts/Cartridge-Regular.woff2"}}") format("woff");
+}
 
 :root {
     --primary-text-color: #333;
