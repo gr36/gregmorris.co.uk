@@ -2,7 +2,7 @@
     font-family: "Cartridge";
     font-style: normal;
     font-feature-settings: "ss01";
-    src: local('cartridge-regular') url(faonts/cartridge-regular.woff) format('woff');
+    src: local('cartridge-regular') url(fonts/cartridge-regular.woff) format('woff');
   }
 
 :root {
