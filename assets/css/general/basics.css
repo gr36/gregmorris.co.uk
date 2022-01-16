@@ -1,7 +1,7 @@
 @font-face {
     font-family:"Cartridge";
     src:url("/assets/fonts/Cartridge-Regular.woff2") format("woff2"),
-    url("/assets/fonts/Cartridge-Regular.woff") format("woff");
+    url("/assets/fonts/Cartridge-Edited.woff") format("woff");
 }
 
 :root {
