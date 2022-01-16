@@ -74,7 +74,8 @@
 .blog-post-title, .link-post-title {
     font-weight: 500;
     font-size: 2.5rem;
-    margin: 0 0 0
+    margin: 0 0 0;
+    font-feature-settings: "ss01";
 }
 
 .blog-post-title a:hover, .link-post-title a:hover {
