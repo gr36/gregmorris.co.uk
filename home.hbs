@@ -36,13 +36,15 @@
         <div class="blog-feed">
                 <div class="blog-posts">
                     <h2>Everything Else</h2>
-                    {{#get "posts" filter="featured:false+tag:-[podcast]"}}
+                    {{#get "posts" filter="featured:false+tag:-[podcast]" limit="10"}}
                     {{#foreach posts}}
                         {{> "blog_loop"}}
                     {{/foreach}}
                     {{/get}}
             </div>
         </div>
-        {{pagination}}
+        <div class="read-more">
+            <a href="/blog/">Read More</a>
+        </div>
     </main>
 </div>
