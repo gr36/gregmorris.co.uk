@@ -159,8 +159,12 @@ span.divider {
     .post-feed .grid-item {
         width: calc(100% / 2);
     }
-    .post-card-image {
+    .post-card-image, .post-card-image-wrap {
         display: none;
+    }
+
+    .post-card-info {
+        margin-left: 0;
     }
     
     .navbar-right {
