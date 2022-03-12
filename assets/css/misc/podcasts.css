@@ -93,5 +93,9 @@
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
+        flex-flow: row;
+    }
+    .podcast-brand {
+        text-size-adjust: -20%;
     }
 }
