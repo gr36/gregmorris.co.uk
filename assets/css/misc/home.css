@@ -22,6 +22,10 @@
     margin-right: auto;
 }
 
+.hello {
+    font-size: 3rem;
+}
+
 .profile-picture {
     border-radius: 11px;
     max-height: 200px;
