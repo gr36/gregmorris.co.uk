@@ -40,8 +40,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     vertical-align: middle;
-    font-family: Cartridge, sans-serif;
-    font-feature-settings: "ss01";
+    font-family: Pouf, sans-serif;
 }
 
 .nav-list {
