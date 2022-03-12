@@ -89,6 +89,9 @@
         font-size: 2rem;
     }
     .subscribe-apps {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         margin-bottom: 0;
+        padding: 1rem;
     }
 }
