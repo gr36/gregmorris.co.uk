@@ -40,7 +40,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     vertical-align: middle;
-    font-family: Pouf, sans-serif;
+    font-family: var(--font-base);
 }
 
 .nav-list {
