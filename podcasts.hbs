@@ -1,0 +1,57 @@
+{{!< default}}
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CESI5KJI&placement=gregmorriscouk" id="_carbonads_js"></script>
+<div class="content-area">
+    <div class="subscribe container">
+        <div class="podcast-header">
+        <h1 class="aya">And You Are?</h1>
+        <p>Conversations with awesome people that you may not know, but really should.</p>
+        </div>
+        <div class="apple">
+            <a href="https://podcasts.apple.com/gb/podcast/and-you-are/id1611736731">
+            <h3 class="podcast-brand">Apple Podcasts</h3>
+            <div class="app-logo">
+                <img src="{{asset "/images/apple@2x.png"}}" class="app-logo-img">
+            </div>
+            </a>
+        </div>
+        <div class="overcast">
+            <a href="overcast://x-callback-url/add?url=https://overcast.fm/itunes1611736731">
+           <h3 class="podcast-brand">Overcast</h3>
+           <div class="app-logo">
+                <img src="{{asset "/images/overcast@2x.png"}}" class="app-logo-img">
+            </div>
+            </a>
+        </div>
+        <div class="pocketcasts">
+            <a href="https://pca.st/dnh1firu">
+            <h3 class="podcast-brand">Pocketcasts</h3>
+            <div class="app-logo">
+                <img src="{{asset "/images/pocketcasts@2x.png"}}" class="app-logo-img">
+            </div>
+            </a>
+        </div>
+        <div class="spotify">
+            <a href="https://open.spotify.com/show/4L1nPZBXU3xRtn5Fzk3vtd">
+            <h3 class="podcast-brand">Spotify</h3>
+            <div class="app-logo">
+                <img src="{{asset "/images/spotify@2x.png"}}" class="app-logo-img">
+            </div>
+            </a>
+        </div>
+        <div class="subscribe-plug">
+            Subscribe in your app of choice or good old <a href="https://feeds.libsyn.com/402974/rss">RSS</a>
+        </div>
+    </div>
+    <main class="blog-main container">
+        <div class="blog-feed">
+                <div class="blog-posts">
+                    {{#foreach posts}}
+                        {{> "blog_loop"}}
+                    {{/foreach}}
+            </div>
+        </div>
+        {{pagination}}
+    </main>
+</div>
+
+/assets/images/link-white.svg"

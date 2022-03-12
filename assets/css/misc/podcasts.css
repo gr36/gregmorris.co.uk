@@ -1,0 +1,58 @@
+.subscribe {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        max-width: 990px;
+        background-color: #F8FAFC;
+        border-radius: 11px;
+}
+
+.subscribe > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+
+.podcast-header {
+    text-align: center;
+}
+
+.aya {
+    margin: 0;
+}
+
+.apple, .overcast, .pocketcasts, .spotify {
+    flex: 2 25%;
+}
+
+.podcast-brand {
+    text-align: center;
+}
+
+.app-logo-img {
+    border-radius: 25px;
+    max-width: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-plug {
+    flex: 3 100%;
+    text-align: center;
+}
+
+.subscribe-plug a {
+    color: var(--ghost-accent-color);
+    font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+    .subscribe {
+        background-color: #2a2d30;
+    }
+}
