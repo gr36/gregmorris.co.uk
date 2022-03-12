@@ -44,7 +44,7 @@
     flex: 1 100%;
     align-items: center;
     margin-bottom: 2rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 6rem;
     margin-right: 6rem;
 }
