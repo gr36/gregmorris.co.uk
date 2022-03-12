@@ -1,7 +1,6 @@
 @font-face {
     font-family:"Cartridge";
-    src:url("/assets/fonts/Cartridge-Edited.woff2") format("woff2"),
-    url("/assets/fonts/Cartridge-Edited.woff") format("woff");
+    src:url("/assets/fonts/Pouf.woff2") format("woff2");
 }
 
 :root {
@@ -52,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Cartridge, sans-serif;
+    font-family: Pouf, sans-serif;
     margin: 0 0 20px;
     color: var(--dark-gray-color);
     line-height: 1.2;
