@@ -42,7 +42,7 @@
 .subscribe-apps {
     display: flex;
     flex: 1 100%;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 2rem;
     justify-content: space-evenly;
     margin-left: 6rem;
@@ -85,7 +85,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 660px) {
     .aya {
         font-size: 2rem;
     }
@@ -94,8 +94,13 @@
         margin-right: 0;
         margin-bottom: 0;
         flex-flow: row;
+        font-size: 12px;
+        word-break: keep-all;
     }
     .podcast-brand {
         text-size-adjust: -20%;
+    }
+    .podcast-header {
+        margin-bottom: 1rem;
     }
 }
