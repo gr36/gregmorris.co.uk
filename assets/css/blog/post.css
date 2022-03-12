@@ -22,7 +22,6 @@
 
 .post-title {
     font-size: 4rem;
-    font-feature-settings: "ss01";
 }
 
 .post-excerpt {
@@ -95,6 +94,10 @@
 
     .post-excerpt {
         font-size: 18px;
+    }
+
+    .post-title {
+        font-size: 3rem;
     }
 
     .post-media,
