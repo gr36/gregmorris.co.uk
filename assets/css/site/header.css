@@ -1,5 +1,6 @@
 .site-header {
     padding: 0 40px;
+    background-color: var(--light-contrast);
 }
 
 .navbar {
@@ -91,5 +92,8 @@
     .main-nav .menu-item-current .menu-item-link,
     .main-nav .menu-item-link:hover {
     background-color: var(--ghost-accent-color);
+    }
+    .site-header {
+        background-color: var(--dark-contrast);
     }
 }

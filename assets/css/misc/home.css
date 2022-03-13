@@ -2,13 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    max-width: 990px;
-    background-color: #F8FAFC;
-    border-radius: 11px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: var(--light-contrast);
+}
+
+.wave {
+    display: block;
+    margin-top: -1rem;
+    content: ' ';
+    background-image: url(/assets/images/light-wave.svg);
+    height: 5rem;
+    width: 100%;
+    background-size: cover;
 }
 
 .profile-image {
@@ -16,10 +23,8 @@
 }
 
 .profile-text {
-    width: 55%;
+    width: 46%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hello {
@@ -50,7 +55,7 @@
 .highlight {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -103,6 +108,9 @@
 
 @media (prefers-color-scheme: dark) {
     .profile {
-        background-color: #2a2d30;
+        background-color: var(--dark-contrast);
+    }
+    .wave {
+        background-image: url(/assets/images/dark-wave.svg);
     }
 }

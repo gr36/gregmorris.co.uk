@@ -3,35 +3,36 @@
         justify-content: space-between;
         flex-flow: row wrap;
         align-items: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
         padding-top: 2rem;
-        padding-bottom: 1.5rem;
-        max-width: 990px;
-        background-color: #F8FAFC;
-        border-radius: 11px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        background-color: var(--light-contrast);
 }
 
 .podcast-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex: 1 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     justify-content: center;
 }
 
 .podcast-artwork {
     width: 30%;
-    margin-left: 2rem;
 }
 
 .podcast-artwork-img {
     border-radius: 11px;
+    max-height: 200px;
 }
 
 .podcast-name {
     width: 50%;
-    margin-left: 2rem;
+}
+
+.podcast-name a {
+    color: var(--ghost-accent-color);
+    font-weight: 500;
 }
 
 .aya {
@@ -43,10 +44,10 @@
     display: flex;
     flex: 1 100%;
     align-items: flex-end;
-    margin-bottom: 2rem;
     justify-content: space-evenly;
     margin-left: 6rem;
     margin-right: 6rem;
+    margin-bottom: 2rem;
 }
 
 .apple, .overcast, .pocketcasts, .spotify {
@@ -71,17 +72,13 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top: 2rem;
-}
-
-.subscribe-plug a {
-    color: var(--ghost-accent-color);
-    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
     .subscribe {
-        background-color: #2a2d30;
+        background-color: var(--dark-contrast);
     }
 }
 
@@ -92,13 +89,18 @@
     .subscribe-apps {
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 0;
         flex-flow: row;
         font-size: 12px;
         word-break: keep-all;
     }
     .podcast-brand {
         text-size-adjust: -20%;
+    }
+    .podcast-artwork {
+        display: none;   
+    }
+    .podcast-name {
+        width: 100%;
     }
     .podcast-header {
         margin-bottom: 1rem;
