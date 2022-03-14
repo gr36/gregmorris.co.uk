@@ -44,6 +44,15 @@
 .podcasts {
     width: 40%;
     margin-left: 2rem;
+    
+}
+
+.section-title:after {
+    content: "";
+    display: block;
+    width: 2rem;
+    padding-top: 3px;
+    border-bottom: 2px solid var(--ghost-accent-color);
 }
 
 .section-title a:hover {
@@ -76,6 +85,14 @@
 
 .podcast-title a:hover {
     color: var(--ghost-accent-color);
+}
+
+.everying-else::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    padding-top: 3px;
+    border-bottom: 3px solid var(--ghost-accent-color);
 }
 
 @media (max-width: 640px) {
