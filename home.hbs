@@ -1,4 +1,5 @@
 {{!< default}}
+ {{#is "home"}}
 <div class="content-area">
     <div class="profile top-container">
         <div class="profile-text">
@@ -13,21 +14,10 @@
     <div class="wave"></div>
     <div class="highlight container">
         <div class="podcasts">
-            <a href="https://gregmorris.co.uk/aya/">
-            <h2 class="section-title">🎧 Podcasts</h2></a>
-               {{#get "posts" filter="tags:podcast" limit="3"}}
-                {{#foreach posts}}
-                    {{> "podcast_loop"}}
-                {{/foreach}}
-                {{/get}}
+            {{> podcasts}}
         </div>
         <div class="new-posts">
-            <h2>👉 Start Here</h2>
-                {{#get "posts" filter="featured:true" limit="3"}}
-                {{#foreach posts}}
-                    {{> "podcast_loop"}}
-                {{/foreach}}
-                {{/get}}
+            {{> new_posts}}
         </div>
 
     </div>
@@ -38,15 +28,29 @@
         <div class="blog-feed">
                 <div class="blog-posts">
                     <h2>Everything Else</h2>
-                    {{#get "posts" filter="featured:false+tag:-[podcast]" limit="10"}}
                     {{#foreach posts}}
                         {{> "blog_loop"}}
                     {{/foreach}}
-                    {{/get}}
             </div>
         </div>
-        <div class="read-more">
-            <a href="/blog/">Read More</a>
-        </div>
+        {{pagination}}
     </main>
 </div>
+{{else}}
+<div class="wave"></div>
+<div class="advert">
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CESI5KJI&placement=gregmorriscouk" id="_carbonads_js"></script>
+</div>
+<div class="content-area">
+    <main class="blog-main container">
+        <div class="blog-feed">
+                <div class="blog-posts">
+                    {{#foreach posts}}
+                        {{> "blog_loop"}}
+                    {{/foreach}}
+            </div>
+        </div>
+        {{pagination}}
+    </main>
+</div>
+{{/is}}
