@@ -3,8 +3,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
     background-color: var(--light-contrast);
 }
 
@@ -19,11 +17,11 @@
 }
 
 .profile-image {
-    width: 30%;
+    width: 15%;
 }
 
 .profile-text {
-    width: 46%;
+    width: 45%;
     display: block;
 }
 
@@ -36,22 +34,6 @@
     max-height: 200px;
 }
 
-.read-more a {
-    padding: 1rem;
-    border: 1px solid var(--ghost-accent-color);
-    border-radius: 11px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
-    text-align: center;
-}
-
-.read-more a:hover {
-    color: white;
-    background-color: var(--ghost-accent-color);
-}
-
 .highlight {
     display: flex;
     justify-content: center;
@@ -60,7 +42,8 @@
 }
 
 .podcasts {
-    width: 46%;
+    width: 40%;
+    margin-left: 2rem;
 }
 
 .section-title a:hover {
@@ -68,7 +51,7 @@
 }
 
 .new-posts {
-    width: 46%;
+    width: 40%;
     padding-left: 3rem;
 }
 
@@ -101,6 +84,9 @@
     }
     .profile-text {
         width: 80%;
+    }
+    .podcasts {
+        margin-left: 0;
     }
 }
 
