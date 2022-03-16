@@ -1,4 +1,4 @@
-<div class="blog-related">
+<div class="blog-related-desktop">
 {{#get "posts" limit="3" filter="tags:[{{post.tags}}]+tags:-[link,micro]+id:-{{post.id}}" as |related|}}
     {{#if related}}
         <section class="related-posts">
