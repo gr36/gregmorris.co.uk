@@ -19,6 +19,10 @@
     display: block;
 }
 
+.blog-related-mobile {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .related-posts {
         margin-top: 60px;
