@@ -20,7 +20,7 @@
 }
 
 .blog-related-mobile {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 767px) {
