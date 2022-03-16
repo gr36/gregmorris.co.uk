@@ -15,25 +15,9 @@
     color: var(--ghost-accent-color);
 }
 
-.blog-related-desktop {
-    display: block;
-}
-
-.blog-related-mobile {
-    display: none;
-}
-
 @media (max-width: 767px) {
     .related-posts {
         margin-top: 60px;
     }
 }
 
-@media (max-width: 640px) {
-    .blog-related-desktop {
-        display: none;
-    }
-    .blog-related-mobile {
-        display: block;
-    }
-}
