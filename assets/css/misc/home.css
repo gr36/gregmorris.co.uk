@@ -115,6 +115,13 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .highlight, .blog-main {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     .profile {
         background-color: var(--dark-contrast);
