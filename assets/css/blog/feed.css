@@ -21,9 +21,8 @@
     width: 100%;
 }
 
-.blog-feed {
-    max-width: 800px;
-    margin: auto;
+.blog-main {
+    max-width: 900px;
 }
 
 .blog-posts {

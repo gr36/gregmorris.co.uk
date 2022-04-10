@@ -1,0 +1,10 @@
+<a href="/photos/"><h2 class="section-title">New Photos</h2></a>
+<div class="new-photos">
+    {{#get "posts" filter="tags:photo" limit="3"}}
+        {{#foreach posts}}
+            <div class="new-photo">
+                     <a class="new-photo-image" href="{{url}}" style="background-image:url({{img_url feature_image size="s"}})"></a>
+            </div>
+        {{/foreach}}
+    {{/get}}
+</div>

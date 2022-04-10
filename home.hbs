@@ -13,23 +13,16 @@
     </div>
     <div class="wave"></div>
     <div class="highlight container">
-        <div class="podcasts">
-            {{> podcasts}}
-        </div>
-        <div class="new-posts">
-            {{> new_posts}}
-        </div>
-
+            {{> new_photo}}
+    </div>
+    <div class="highlight container">
+            {{> new_podcasts}}
     </div>
     <main class="blog-main container">
-        <div class="blog-feed">
-                <div class="blog-posts">
-                    <h1 class="everying-else">Everything Else</h1>
+                    <h2 class="section-title">Everything Else</h2>
                     {{#foreach posts}}
                         {{> "blog_loop"}}
                     {{/foreach}}
-            </div>
-        </div>
         {{pagination}}
     </main>
 </div>
