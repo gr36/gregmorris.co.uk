@@ -17,11 +17,12 @@
 }
 
 .profile-image {
-    width: 15%;
+    width: 20%;
+    padding-left: 2rem;
 }
 
 .profile-text {
-    width: 45%;
+    width: 40%;
     display: block;
 }
 
@@ -119,6 +120,21 @@
     .highlight, .blog-main {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+}
+
+@media (max-width: 937px) {
+    .profile-image {
+        padding-left: 0;
+        width: 60%;
+    }
+    .profile-text {
+        text-align: center;
+        width: 60%;
+    }
+    .profile {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
