@@ -16,4 +16,8 @@
     flex-direction: column;
 }
 
+.custom_image, .custom_post {
+    width: 100%;
+}
+
 }
