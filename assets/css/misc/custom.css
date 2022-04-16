@@ -1,5 +1,6 @@
 .custom_post {
     display: flex;
+    gap: 2rem;
 }
 
 .custom_image {
