@@ -10,3 +10,10 @@
 .custom_text {
     width: 60%;
 }
+
+@media (max-width: 640px) {
+.custom_post {
+    flex-direction: column;
+}
+
+}
