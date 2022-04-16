@@ -1,0 +1,11 @@
+.custom_post {
+    display: flex;
+}
+
+.custom_image {
+    width: 40%;
+}
+
+.custom_text {
+    width: 60%;
+}
