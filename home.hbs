@@ -14,17 +14,16 @@
     <div class="wave"></div>
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CESI5KJI&placement=gregmorriscouk" id="_carbonads_js"></script>
     <div class="highlight container">
-            <a href="/photos/"><h2 class="section-title">Photos</h2></a>
-            {{> new_photo}}
+            {{> section_photo heading="Photos"}}
     </div>
     <div class="highlight container">
-        <a href="https://gregmorris.co.uk/aya/"><h2 class="section-title">Podcasts</h2></a>
-            {{> new_podcasts}}
+        {{> section_podcast heading="Podcasts"}}
+</div>
     </div>
     <main class="blog-main container">
                     <h2 class="section-title">Blog Posts</h2>
                     {{#foreach posts}}
-                        {{> "blog_loop"}}
+                        {{> "card_blog"}}
                     {{/foreach}}
         {{pagination}}
     </main>
@@ -39,7 +38,7 @@
         <div class="blog-feed">
                 <div class="blog-posts">
                     {{#foreach posts}}
-                        {{> "blog_loop"}}
+                        {{> "card_blog"}}
                     {{/foreach}}
             </div>
         </div>

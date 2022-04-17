@@ -1,0 +1,10 @@
+<a href="https://gregmorris.co.uk/aya/"><h2 class="section-title">{{heading}}</h2></a>
+<div class="podcasts">
+        {{#get "posts" filter="tags:podcast" limit="4"}}
+        {{#foreach posts}}
+        <div class="episode">
+            {{> card_podcast }}
+        </div>
+        {{/foreach}}
+        {{/get}}
+</div>
