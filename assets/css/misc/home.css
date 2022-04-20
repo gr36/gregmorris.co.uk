@@ -74,11 +74,13 @@
 
 .podcasts {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
 }
 
-.podcasts-left, .podcasts-right {
-    width: 45%;
+.episode {
+    flex-basis: 45%;
 }
 
 .podcast-card {
