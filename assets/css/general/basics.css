@@ -179,6 +179,10 @@ hr::after {
     text-align: center;
 }
 
+.backing {
+    background-color: var(--light-contrast);
+}
+
 @media (max-width: 767px) {
     blockquote {
         margin-right: 0;
@@ -206,6 +210,9 @@ hr::after {
     
     code {
         color: var(--darkmode-text-color);
+    }
+    .backing {
+        background-color: var(--dark-contrast);
     }
 
 }
