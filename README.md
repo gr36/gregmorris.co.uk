@@ -2,8 +2,6 @@
 
 A visually aesthetic theme designed for creative professionals. Showcase your works with minimal style and presentation. Completely free and fully responsive, released under the MIT license.
 
-**Demo: https://edge.ghost.io**
-
 &nbsp;
 
 # Instructions
